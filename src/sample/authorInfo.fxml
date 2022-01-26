@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="414.0" prefWidth="491.0" style="-fx-background-color: #f2d394;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainController">
+   <children>
+      <ImageView fitHeight="257.0" fitWidth="242.0" layoutX="40.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../photo_2021-12-01_23-51-19.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="266.0" layoutY="115.0" prefHeight="43.0" prefWidth="195.0" text="Студентка гр. 1БС-19Б" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="290.0" layoutY="158.0" prefHeight="43.0" prefWidth="146.0" text="ФІТКІ" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="290.0" layoutY="193.0" prefHeight="43.0" prefWidth="146.0" text="Насталенко Яна" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="43.0" fitWidth="36.0" layoutX="290.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../inst.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="36.0" fitWidth="30.0" layoutX="333.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../telegram-logo.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="364.0" layoutY="274.0" prefHeight="43.0" prefWidth="90.0" text="\@sharp_n" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

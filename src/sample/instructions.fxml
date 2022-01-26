@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="414.0" prefWidth="491.0" style="-fx-background-color: #f2d394;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainController">
+   <children>
+      <Label layoutX="14.0" layoutY="18.0" prefHeight="30.0" prefWidth="297.0" text="Обфускація здійснюється наступним чином:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="42.0" prefHeight="30.0" prefWidth="220.0" text="1) Видалення коментарів.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="66.0" prefHeight="30.0" prefWidth="220.0" text="2) Додавання сміттєвих операцій.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="90.0" prefHeight="30.0" prefWidth="220.0" text="3) Заміна імен ідентифікаторів.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="114.0" prefHeight="30.0" prefWidth="220.0" text="4) Видалення зайвих пробілів.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="336.0" prefHeight="30.0" prefWidth="374.0" text="Змінні, названі одним символом, не перейменовуються.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="165.0" prefHeight="30.0" prefWidth="374.0" text="Кнопка &quot;Obfuscate&quot; здійснює обфускацію.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="141.0" prefHeight="30.0" prefWidth="374.0" text="Кнопка &quot;Open File&quot; відкриває потрібний файл.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="189.0" prefHeight="30.0" prefWidth="374.0" text="Кнопка &quot;Save File&quot; зберігає файл.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="213.0" prefHeight="30.0" prefWidth="374.0" text="Кнопка &quot;Edit&quot; дозволяє ручне редагування файлу.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="238.0" prefHeight="30.0" prefWidth="461.0" text="Кнопка &quot;Show Variables&quot; відкриває вікно зі списком змінних:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="262.0" prefHeight="30.0" prefWidth="461.0" text="кнопка &quot;Show&quot; виводить список;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="286.0" prefHeight="30.0" prefWidth="461.0" text="кнопка &quot;Save&quot; зберігає його як файл.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="360.0" prefHeight="30.0" prefWidth="418.0" text="Файл повинен називатись так само, як і описаний у ньому клас.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="312.0" prefHeight="30.0" prefWidth="77.0" text="Пам'ятайте!">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

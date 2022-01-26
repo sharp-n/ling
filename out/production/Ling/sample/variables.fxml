@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="436.0" prefWidth="333.0" style="-fx-background-color: #f2d394;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ObfuscationController">
+   <children>
+      <Button fx:id="saveVarsButton" layoutX="187.0" layoutY="394.0" mnemonicParsing="false" onMouseClicked="#saveVars" prefHeight="26.0" prefWidth="89.0" style="-fx-background-color: #DEB887; -fx-border-color: #A0522D;" text="Save" />
+      <TextArea fx:id="varsArea" layoutX="27.0" layoutY="23.0" prefHeight="358.0" prefWidth="278.0" style="-fx-border-color: #A0522D; -fx-background-color: #f2d394;" />
+      <Button fx:id="showListButton" layoutX="64.0" layoutY="394.0" mnemonicParsing="false" onMouseClicked="#showList" prefHeight="26.0" prefWidth="89.0" style="-fx-background-color: #DEB887; -fx-border-color: #A0522D;" text="Show" />
+   </children>
+</AnchorPane>
